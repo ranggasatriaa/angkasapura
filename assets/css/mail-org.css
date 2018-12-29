@@ -1,0 +1,196 @@
+/* login */
+#login-card{
+    margin-top: 8%;
+}
+#login-card .card-profile .card-avatar + .card-body{
+    margin-top: 0px;
+}
+/* login */
+/* search bar */
+.search-bar-tools{
+    position: relative;
+    top: 0px;
+    width: 45%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.search-bar-tools .card-body{
+    padding: 0px 10px 5px 10px;
+}
+.search-bar-tools .card-body .bmd-form-group .input-group input{
+    max-width: 85%;
+    margin-right: 4%;
+    margin-top: 6px;
+}
+.loading-search{
+    position: relative;
+    left: 300px;
+    top: 15px;
+}
+/* search bar */
+/* template */
+.navbar-wrapper-tittle{
+    margin-left : 10px;
+    font-weight: 600;
+}
+.logo-normal{
+    font-size: 12pt;
+}
+.logo-normal img{
+    width: 220px;
+    margin-bottom: 10px;
+}
+.collapse{
+    padding-left: 8%;
+    transition: all 0.3s ease;
+}
+.sidebar, .sidebar .sidebar-wrapper{
+    width: 300px;
+}
+.main-panel{
+    width: calc(100% - 300px)
+}
+.sidebar .nav{
+    margin-bottom: 80px;
+}
+/* template */
+/* Dashboard */
+.dashboard-content{
+    padding-top: 10%;
+}
+.dashboard-img{
+    width: 500px;
+    position: absolute;
+    top: 15%;
+    left: 27%;
+    z-index: -1;
+    opacity: 0.1;
+}
+/* Dashboard */
+
+/* List Surat Masuk */
+.status-surat{
+    font-weight: 600;
+}
+.status-surat-masuk--unread{
+    color: #f44336;
+}
+.status-surat-masuk--onprogress{
+    color: #00bcd4;
+}
+.status-surat-masuk--delivered{
+    color: #4caf50;
+}
+
+.btn-add-mail i{
+    color: #ffffff;
+    font-size: 20pt !important;
+}
+.card-add-mail p{
+    font-weight: 400;
+    font-size: 13pt;
+    margin-top: 10px;
+}
+/* List Surat Masuk */
+/* Form in mail */
+.card-upload-mail h4{
+    text-align: center;
+    color: #26c6da;
+}
+.card-upload-mail .custom-file-input{
+    cursor: pointer;
+}
+.card-upload-mail .custom-file-label{
+    /* background-color: #9c27b0; */
+    border: 2px solid #26c6da;
+    border-radius: 9px;
+    color: #AAAAAA;
+    padding-top: 9px;
+    cursor: pointer;
+}
+.custom-file-input ~ .custom-file-label::after {
+    color: #ffffff;
+    content: "Cari";
+    background: #26c6da;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    padding-top: 9px;
+}
+.bootstrap-tagsinput{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 0px;
+    box-shadow: none;
+    border-bottom: 1px solid #ccc;
+    border-radius: 0px;
+}
+.bootstrap-tagsinput .tag {
+    margin-right: 2px;
+    color: white;
+    background-color: #26c6da;
+    border-radius: 4px;
+    padding: 4px 10px;
+}
+.surat-masuk-disposisi-field input:focus{
+    border-bottom-color: #00bcd4;
+}
+/* Form in mail */
+/* detail surat masuk */
+.detail-surat-masuk .row .col-md-12{
+    padding-left: 6%;
+}
+.detail-surat-masuk table{
+    margin-bottom: 15px;
+}
+.detail-surat-masuk table tbody tr{
+    height: 40px;
+}
+.detail-surat-masuk table tbody tr td:first-child{
+    width: 150px;
+}
+/* detail surat masuk */
+/* detail laporan */
+.detail-img:hover{
+    cursor: zoom-in;
+}
+/* end of detail laporan */
+
+/* form pinjam atk */
+.list-added-atk .form-group{
+    margin-top: 10px !important;
+}
+.list-added-atk .form-group input{
+    padding-top: 0px !important;
+}
+.list-added-atk .form-group label{
+    margin-bottom: 0px;
+}
+/* end of form pinjam atk */
+
+/* status edit */
+.status-edit{
+    position: absolute;
+    right: 3%;
+    top: 30%;
+    font-weight: bold;
+}
+/* end of status edit */
+
+/* form add agenda personil */
+#list-personil tr td .form-group{
+    margin-top: 0px;
+}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button,
+input[type=time]::-webkit-inner-spin-button,
+input[type=time]::-webkit-outer-spin-button, {
+  -webkit-appearance: none;
+  margin: 0;
+}
+/* end form add agenda personil */
+
+/* form upload excel */
+#form-upload-excel{
+    display: none;
+}
+/* form upload excel */
